@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=375, user-scalable=yes">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+</head>
+<body>
+    <div class="full_screen">
+
+        <div class="top_bar system">
+            <div class="align-left">
+                <div class="time"></div>
+            </div>
+            <div class="align-right">
+                <div class="wifi_icon"><i class="uil uil-wifi"></i></div>
+                <div class="network_icon"><i class="uil uil-signal"></i></div>
+                <div class="battery_value">60%</div>
+                <div class="battery_icon"><i class="uil uil-battery-bolt"></i></div>
+            </div>
+        </div>
+        <div class="app">
+            <div class="top_nav">
+                <div class="align-left">
+                    <h1>채팅</h1>
+                </div>
+                <div class="align-right">
+                    <div class="search_icon"><i class="uil uil-search"></i></div>
+                    <div class="new_room_icon"><i class="uil uil-comment-plus"></i></div>
+                    <div class="music_icon"><i class="uil uil-music"></i></div>
+                    <div class="settings_icon"><i class="uil uil-setting"></i></div>
+                </div>
+            </div>
+
+            <li class="list">
+                <div class="ad">
+                    <img src="ad.jpg" alt="">
+                </div>
+                <!-- here is chat list -->
+                <div class="chat_list"></div>
+            </li>
+            <div class="bot_nav">
+                <label>
+                    <input type="radio" name="page_select">
+                    <div class="friends_page"><i class="uil uil-user"></i></div>    
+                </label>
+                    <label>
+                    <input type="radio" name="page_select" checked>
+                <div class="chat_list_page"><i class="uil uil-comments"></i></div>
+                </label>
+                    <label>
+                    <input type="radio" name="page_select">
+                <div class="hash_page">#</div>
+                </label>
+                <label>
+                    <input type="radio" name="page_select">
+                    <div class="shopping_page"><i class="uil uil-shopping-bag"></i></div>
+                </label>
+                <label>
+                    <input type="radio" name="page_select">
+                    <div class="more_page"><i class="uil uil-ellipsis-h"></i></div>
+                </label>
+                </div>
+        </div>
+        <div class="menu_bar system">
+            <div class="menu_icon"><i class="uil uil-bars"></i></div>
+            <div class="home_icon"><i class="uil uil-estate"></i></div>
+            <div class="back_icon"><i class="uil uil-location-arrow-alt"></i></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
